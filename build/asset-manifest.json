@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/adiz1/static/js/main.fa903559.js",
-    "index.html": "/adiz1/index.html",
-    "main.fa903559.js.map": "/adiz1/static/js/main.fa903559.js.map"
+    "main.js": "/react-app/static/js/main.75be7dd5.js",
+    "index.html": "/react-app/index.html",
+    "main.75be7dd5.js.map": "/react-app/static/js/main.75be7dd5.js.map"
   },
   "entrypoints": [
-    "static/js/main.fa903559.js"
+    "static/js/main.75be7dd5.js"
   ]
 }
