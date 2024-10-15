@@ -115,7 +115,7 @@ const Home = () => {
                 className="blog-preview-wrap w-dyn-item"
                 style={{ opacity: 1 }}
               >
-                <a href="#" className="business-article-heading">
+                <a href="/" className="business-article-heading">
                   {item}
                 </a>
                 <p className="paragraph-light">

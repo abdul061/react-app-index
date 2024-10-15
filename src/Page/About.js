@@ -1,24 +1,5 @@
-import React, { useState } from 'react';
+
 const About = () => {
-  const [email, setEmail] = useState('');
-  const [formSubmitted, setFormSubmitted] = useState(false);
-  const [formError, setFormError] = useState(false);
-
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
-
-  const handleEmailSubmit = (e) => {
-    e.preventDefault();
-    if (email) {
-      // Simulate form submission
-      setFormSubmitted(true);
-      setFormError(false);
-      setEmail('');
-    } else {
-      setFormError(true);
-    }
-  };
 
   return (
     <div>

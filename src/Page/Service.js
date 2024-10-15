@@ -30,8 +30,8 @@ const Service = () => {
               Best solution is the simplest idea!...
             </div>
             <div className="udesly-banner-buttons">
-              <a href="#" className="udesly-button-outlined-small w-button">More details</a>
-              <a href="#" className="udesly-button-close w-inline-block">
+              <a href="/contact" className="udesly-button-outlined-small w-button">More details</a>
+              <a href="/contact" className="udesly-button-close w-inline-block">
                 <img src="assets/img/cross.svg" loading="lazy" alt="" />
               </a>
             </div>
@@ -87,7 +87,7 @@ const Service = () => {
                 transform: 'translate3d(0, 15px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)',
                 opacity: 1,
               }}
-              href="#"
+              href="/contact"
               className="button-primary w-button"
             >
               Get Started
@@ -131,7 +131,7 @@ const Service = () => {
             }}
             className="udesly-button-wrapper"
           >
-            <a href="#" className="udesly-button w-button">Contact us</a>
+            <a href="/contact" className="udesly-button w-button">Contact us</a>
           </div>
         </div>
         <div id="w-node-_3818a629-e4e5-ee45-a87a-e7286e00b113-33987cf7" className="udesly-stats-wrapper">
@@ -199,7 +199,7 @@ const Service = () => {
       <div className="udesly-article-wrapper">
         <a
           id="w-node-b9bd4b73-78f7-8820-c414-b616e0d138c5-33987cf7"
-          href="#"
+          href="/service"
           className="udesly-article-card w-inline-block"
         >
           <div className="udesly-image-wrapper">

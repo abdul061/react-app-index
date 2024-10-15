@@ -26,7 +26,7 @@ function Footer() {
         }
       };
     const SocialLink = ({ icon }) => (
-        <a href="#" className="udesly-social-link w-inline-block">
+        <a href="/" className="udesly-social-link w-inline-block">
           <img src={`assets/img/${icon}`} loading="lazy" alt="" />
         </a>
       );
@@ -37,7 +37,7 @@ function Footer() {
         <div className="udesly-container-2">
             <div className="w-layout-grid udesly-grid-2-columns">
             <div className="udesly-column-2">
-                <a href="#" className="udesly-footer-logo w-inline-block">
+                <a href="/" className="udesly-footer-logo w-inline-block">
                 <img
                     src="assets/img/website-logo.jpeg"
                     loading="lazy"
@@ -107,7 +107,7 @@ function Footer() {
                 ))}
             </div>
             <div className="udesly-flex udesly-gap-32">
-                <a href="#" className="udesly-link">
+                <a href="/" className="udesly-link">
                 Created by Adiz
                 </a>
             </div>
