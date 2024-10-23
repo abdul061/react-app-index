@@ -14,7 +14,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const App = () => {
   return (
     <Router>
-        <Nav /> {/* Navigation component */}
+              <Nav /> 
+      <div>
+{/* Navigation component */}
 
         <Routes>
           <Route path="/" element={<Home />} /> {/* Home route */}
@@ -23,7 +25,9 @@ const App = () => {
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
+
+      </div>
+      <Footer />
       </Router>
   );
 };
